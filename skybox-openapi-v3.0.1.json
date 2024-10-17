@@ -15387,7 +15387,8 @@
           "splitType" : {
             "type" : "string",
             "description" : "How the tickets may be split",
-            "enum" : [ "DEFAULT", "ANY", "CUSTOM", "NEVERLEAVEONE" ]
+            "enum" : [ "DEFAULT", "ANY", "CUSTOM", "NEVERLEAVEONE" ],
+            "default": "DEFAULT"
           },
           "customSplit" : {
             "pattern" : "^\\d*(,\\d*)*$",
